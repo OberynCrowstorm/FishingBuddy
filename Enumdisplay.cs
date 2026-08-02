@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Oberyn.FishingBuddy.Services
+namespace Oberyn.AnglerAssociate.Services
 {
     // Turns enum.ToString()'s raw PascalCase ("OpenWater", "OffshoreFish") into
     // readable display text ("Open Water", "Offshore Fish"). One shared formatter

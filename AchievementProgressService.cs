@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Gw2Sharp.WebApi.V2.Models;
-using Oberyn.FishingBuddy.Models;
+using Oberyn.AnglerAssociate.Models;
 
-namespace Oberyn.FishingBuddy.Services
+namespace Oberyn.AnglerAssociate.Services
 {
     //Fetch /v2/account/achievements once and cache the result; if something changes later, callers should reinvoke on both load and SubtokenUnload
     public class AchievementProgressService
@@ -18,7 +18,7 @@ namespace Oberyn.FishingBuddy.Services
 
         public async Task RefreshAsync()
         {
-            var apiManager = FishingBuddyModule.Instance.Gw2ApiManager;
+            var apiManager = AnglerAssociateModule.Instance.Gw2ApiManager;
 
             if (!apiManager.HasPermissions(new[] { TokenPermission.Account, TokenPermission.Progression }))
             {

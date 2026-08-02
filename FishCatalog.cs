@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using Oberyn.FishingBuddy.Data;
-using Oberyn.FishingBuddy.Models;
+using Oberyn.AnglerAssociate.Data;
+using Oberyn.AnglerAssociate.Models;
 
-namespace Oberyn.FishingBuddy.Services
+namespace Oberyn.AnglerAssociate.Services
 {
     public static class FishCatalog
     {

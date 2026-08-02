@@ -1,4 +1,4 @@
-namespace Oberyn.FishingBuddy.Models
+namespace Oberyn.AnglerAssociate.Models
 {
     // fish can reference this up to 3 times:
     // TimeOfDay - primary (can be any)

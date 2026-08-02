@@ -2,10 +2,10 @@
 
 	<PropertyGroup>
 		<TargetFramework>net48</TargetFramework>
-		<AssemblyName>Oberyn.FishingBuddy</AssemblyName>
+		<AssemblyName>Oberyn.AnglerAssociate</AssemblyName>
 		<Version>0.1.0</Version>
-		<PackageId>Oberyn.FishingBuddy</PackageId>
-		<BlishHUDModuleFileName>Oberyn.FishingBuddy_$(Version)</BlishHUDModuleFileName>
+		<PackageId>Oberyn.AnglerAssociate</PackageId>
+		<BlishHUDModuleFileName>Oberyn.AnglerAssociate_$(Version)</BlishHUDModuleFileName>
 	</PropertyGroup>
 
   <ItemGroup>

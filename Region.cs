@@ -1,4 +1,4 @@
-namespace Oberyn.FishingBuddy.Models
+namespace Oberyn.AnglerAssociate.Models
 {
     public enum Region
     {

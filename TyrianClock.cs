@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Oberyn.FishingBuddy.Models;
+using Oberyn.AnglerAssociate.Models;
 
 // Tyria's clock is 70/5/40/5 mins split, Cantha/Castora is 55/5/55/5 mins
 
-namespace Oberyn.FishingBuddy.Services
+namespace Oberyn.AnglerAssociate.Services
 {
     // pull from DateTime.UtcNow. Tyrian time is 12x faster, values below are in seconds (in case you forget)
     public static class TyrianClock

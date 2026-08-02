@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Oberyn.FishingBuddy.Models;
+using Oberyn.AnglerAssociate.Models;
 
-namespace Oberyn.FishingBuddy.Data
+namespace Oberyn.AnglerAssociate.Data
 {
     public static class CanthaFishData
     {

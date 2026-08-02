@@ -1,4 +1,4 @@
-**Fishing Buddy**
+**Angler Associate**
 
 A [BlishHUD]([url](https://blishhud.com/)) module for Guild Wars 2 that helps you find fish - what day/night cycle you're in, where to find specific fish, tracking achievement progression and showing Daily.
 

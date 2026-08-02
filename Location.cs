@@ -1,4 +1,4 @@
-namespace Oberyn.FishingBuddy.Models
+namespace Oberyn.AnglerAssociate.Models
 {
     //names taken from the hints, hence DesertIsles
     public enum Location

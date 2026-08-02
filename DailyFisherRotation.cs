@@ -1,6 +1,6 @@
 using System;
 
-namespace Oberyn.FishingBuddy.Services
+namespace Oberyn.AnglerAssociate.Services
 {
     // pulled from wiki, reset at midnight UTC.
     public static class DailyFisherRotation

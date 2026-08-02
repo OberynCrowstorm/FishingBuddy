@@ -2,7 +2,7 @@
 # Visual Studio Version 18
 VisualStudioVersion = 18.3.11527.330 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FishingBuddy", "FishingBuddy.csproj", "{06A2C8F6-B57F-45CE-BF49-4A69A37745E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnglerAssociate", "AnglerAssociate.csproj", "{06A2C8F6-B57F-45CE-BF49-4A69A37745E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

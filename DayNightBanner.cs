@@ -4,10 +4,10 @@ using Blish_HUD.Content;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
 using Microsoft.Xna.Framework;
-using Oberyn.FishingBuddy.Models;
-using Oberyn.FishingBuddy.Services;
+using Oberyn.AnglerAssociate.Models;
+using Oberyn.AnglerAssociate.Services;
 
-namespace Oberyn.FishingBuddy.Controls
+namespace Oberyn.AnglerAssociate.Controls
 {
     // One region's day/night display: a big banner for the current state, plus two
     // small tiles below it for the next two states, each with a live "X in H:MM:SS"

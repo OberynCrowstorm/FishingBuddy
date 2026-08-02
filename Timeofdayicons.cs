@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Blish_HUD.Content;
 using Blish_HUD.Modules.Managers;
-using Oberyn.FishingBuddy.Models;
+using Oberyn.AnglerAssociate.Models;
 
-namespace Oberyn.FishingBuddy.Services
+namespace Oberyn.AnglerAssociate.Services
 {
     public static class TimeOfDayIcons
     {

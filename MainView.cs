@@ -5,10 +5,10 @@ using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
 using Microsoft.Xna.Framework;
-using Oberyn.FishingBuddy.Models;
-using Oberyn.FishingBuddy.Services;
+using Oberyn.AnglerAssociate.Models;
+using Oberyn.AnglerAssociate.Services;
 
-namespace Oberyn.FishingBuddy.Controls
+namespace Oberyn.AnglerAssociate.Controls
 {
     public class MainView : Panel
     {

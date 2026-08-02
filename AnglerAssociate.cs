@@ -8,17 +8,17 @@ using Blish_HUD.Modules;
 using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
 using Microsoft.Xna.Framework;
-using Oberyn.FishingBuddy.Controls;
-using Oberyn.FishingBuddy.Services;
+using Oberyn.AnglerAssociate.Controls;
+using Oberyn.AnglerAssociate.Services;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 
-namespace Oberyn.FishingBuddy
+namespace Oberyn.AnglerAssociate
 {
     [Export(typeof(Module))]
-    public class FishingBuddyModule : Module
+    public class AnglerAssociateModule : Module
     {
-        private static readonly Logger Logger = Logger.GetLogger(typeof(FishingBuddyModule));
-        internal static FishingBuddyModule Instance { get; private set; }
+        private static readonly Logger Logger = Logger.GetLogger(typeof(AnglerAssociateModule));
+        internal static AnglerAssociateModule Instance { get; private set; }
         internal Gw2ApiManager Gw2ApiManager => this.ModuleParameters.Gw2ApiManager;
         internal ContentsManager ContentsManager => this.ModuleParameters.ContentsManager;
         internal DirectoriesManager DirectoriesManager => this.ModuleParameters.DirectoriesManager;
@@ -31,7 +31,7 @@ namespace Oberyn.FishingBuddy
         private System.Threading.Timer _bannerRefreshTimer;
 
         [ImportingConstructor]
-        public FishingBuddyModule([Import("ModuleParameters")] ModuleParameters moduleParameters)
+        public AnglerAssociateModule([Import("ModuleParameters")] ModuleParameters moduleParameters)
             : base(moduleParameters)
         {
             Instance = this;
@@ -43,13 +43,13 @@ namespace Oberyn.FishingBuddy
         {
             try
             {
-                Logger.Info("Fishing Buddy initializing.");
+                Logger.Info("Angler Associate initializing.");
                 AchievementProgress = new AchievementProgressService();
             }
             catch (Exception ex)
             {
                 // debugging cause the module didn't load during texting, this is to find it easily in Blish's logs
-                Logger.Error(ex, "Fishing Buddy failed during Initialize().");
+                Logger.Error(ex, "Angler Associate failed during Initialize().");
                 throw;
             }
         }
@@ -57,7 +57,7 @@ namespace Oberyn.FishingBuddy
         {
             try
             {
-                Logger.Info("Fishing Buddy loaded.");
+                Logger.Info("Angler Associate loaded.");
 
                 BuildWindow();
                 BuildContent();
@@ -75,7 +75,7 @@ namespace Oberyn.FishingBuddy
             }
             catch (Exception ex)
             {
-                Logger.Error(ex, "Fishing Buddy failed during LoadAsync().");
+                Logger.Error(ex, "Angler Associate failed during LoadAsync().");
                 throw;
             }
         }
@@ -90,7 +90,7 @@ namespace Oberyn.FishingBuddy
                 new Rectangle(60, 50, 1052, 568))
             {
                 Parent = GameService.Graphics.SpriteScreen,
-                Title = "Fishing Buddy",
+                Title = "Angler Associate",
                 Location = new Point(50, 50),
                 SavesPosition = true,
                 Id = "FishingBuddy_MainWindow",
@@ -116,7 +116,7 @@ namespace Oberyn.FishingBuddy
             {
                 Icon = ContentsManager.GetTexture("icons/icon.png"),
                 HoverIcon = ContentsManager.GetTexture("icons/icon_hover.png"),
-                BasicTooltipText = "Fishing Buddy",
+                BasicTooltipText = "Angler Associate",
                 Parent = GameService.Graphics.SpriteScreen,
             };
 
