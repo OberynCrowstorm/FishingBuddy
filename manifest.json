@@ -1,0 +1,30 @@
+{
+  "name": "Fishing Buddy",
+  "version": "0.1.0",
+  "namespace": "oberyn.fishingbuddy",
+  "package": "Oberyn.FishingBuddy.dll",
+  "manifest_version": 1,
+  "description": "Helps tracking which daily fish to catch for the EOD achievement and what fish can be caught based on the day/night cycle (and where)",
+  "dependencies": {
+    "bh.blishhud": ">=1.2.0"
+  },
+  "url": "https://github.com/OberynCrowstorm/FishingBuddy",
+  "contributors": [
+    {
+      "name": "Oberyn",
+      "username": "Oberyn.6125"
+    }
+  ],
+  "directories": [ "fishingbuddy" ],
+  "enabled_without_gw2": true,
+  "api_permissions": {
+    "account": {
+      "optional": true,
+      "details": "Used to authenticate the API key."
+    },
+    "progression": {
+      "optional": true,
+      "details": "Used to read fisher achievements progress (so that you can exclude fish you've already caught."
+    }
+  }
+}

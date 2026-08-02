@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "gw2": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Projects\\Blish\\Blish.HUD\\Blish HUD.exe",
+      "commandLineArgs": "--debug --module \"C:\\Projects\\Blish\\Fishing_Buddy\\Fishing_Buddy\\bin\\Debug\\net48\\Oberyn.FishingBuddy_0.1.0.bhm\" --settings \"..\\Settings_FishingBuddy\""
+    },
+    "powershell": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Projects\\Blish\\Blish.HUD\\Blish HUD.exe",
+      "commandLineArgs": "--debug --module \"C:\\Projects\\Blish\\Fishing_Buddy\\Fishing_Buddy\\bin\\Debug\\net48\\Oberyn.FishingBuddy_0.1.0.bhm\" --settings \"..\\Settings_FishingBuddy\""
+    }
+  }
+}
